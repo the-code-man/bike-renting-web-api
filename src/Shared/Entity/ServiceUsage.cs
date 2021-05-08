@@ -1,7 +1,7 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
+﻿using Codeman.BRS.Shared.Common;
 using System;
 
-namespace Codeman.BikeRentingSystem.Shared.Entity
+namespace Codeman.BRS.Shared.Entity
 {
     public class ServiceUsage
     {

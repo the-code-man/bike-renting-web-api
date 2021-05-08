@@ -1,4 +1,4 @@
-﻿namespace Codeman.BikeRentingSystem.Shared.Common
+﻿namespace Codeman.BRS.Shared.Common
 {
     public interface ILogger
     {

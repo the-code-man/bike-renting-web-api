@@ -1,8 +1,8 @@
-﻿using Codeman.BikeRentingSystem.Shared.Entity;
+﻿using Codeman.BRS.Shared.Entity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BikeRentingSystem.Shared.Service
+namespace Codeman.BRS.Shared.Service
 {
     public interface ICustomerService
     {

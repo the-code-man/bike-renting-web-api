@@ -1,7 +1,7 @@
 ﻿using Autofac;
-using Codeman.BikeRentingSystem.Shared.Service;
+using Codeman.BRS.Shared.Service;
 
-namespace Codeman.BikeRentingSystem.Core
+namespace Codeman.BRS.Core
 {
     public class ServiceModule : Module
     {

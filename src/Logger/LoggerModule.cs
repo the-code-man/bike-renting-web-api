@@ -1,7 +1,7 @@
 ﻿using Autofac;
-using Codeman.BikeRentingSystem.Shared.Common;
+using Codeman.BRS.Shared.Common;
 
-namespace Codeman.BikeRentingSystem.Logger
+namespace Codeman.BRS.Logger
 {
     public class LoggerModule : Module
     {

@@ -1,6 +1,6 @@
-﻿using Codeman.BikeRentingSystem.Shared.Entity;
+﻿using Codeman.BRS.Shared.Entity;
 
-namespace Codeman.BikeRentingSystem.Shared.Repository
+namespace Codeman.BRS.Shared.Repository
 {
     public interface ICustomerRepository : IRepository<Customer>
     {

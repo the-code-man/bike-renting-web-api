@@ -1,8 +1,8 @@
-﻿using Codeman.BikeRentingSystem.Shared.Entity;
+﻿using Codeman.BRS.Shared.Entity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BikeRentingSystem.Shared.Repository
+namespace Codeman.BRS.Shared.Repository
 {
     public interface IAddressRepository : IRepository<Address>
     {

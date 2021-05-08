@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codeman.BikeRentingSystem.Shared.Entity
+namespace Codeman.BRS.Shared.Entity
 {
     public class Duration
     {

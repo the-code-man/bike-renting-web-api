@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Codeman.BikeRentingSystem.Core.Tests
+namespace Codeman.BRS.Core.Tests
 {
     public class UnitTest1
     {

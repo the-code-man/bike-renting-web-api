@@ -1,6 +1,6 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
+﻿using Codeman.BRS.Shared.Common;
 
-namespace Codeman.BikeRentingSystem.Shared.Entity
+namespace Codeman.BRS.Shared.Entity
 {
     public class Trip : BaseEntity
     {

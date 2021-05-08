@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\Codeman.BikeRentingSystem.Shared.csproj" />
+    <ProjectReference Include="..\Shared\Codeman.BRS.Shared.csproj" />
   </ItemGroup>
 
 </Project>

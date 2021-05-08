@@ -1,8 +1,8 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
+﻿using Codeman.BRS.Shared.Common;
 using Microsoft.Extensions.Options;
 using System;
 
-namespace Codeman.BikeRentingSystem.DataAccess
+namespace Codeman.BRS.Data.SqlServer
 {
     public class ConnectionHelper : IDBConnectionHelper
     {

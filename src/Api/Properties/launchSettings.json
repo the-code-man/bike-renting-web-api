@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Codeman.BikeRentingSystem.Api": {
+    "Codeman.BRS.Api": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": false,

@@ -1,11 +1,11 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
-using Codeman.BikeRentingSystem.Shared.Entity;
-using Codeman.BikeRentingSystem.Shared.Repository;
-using Codeman.BikeRentingSystem.Shared.Service;
+﻿using Codeman.BRS.Shared.Common;
+using Codeman.BRS.Shared.Entity;
+using Codeman.BRS.Shared.Repository;
+using Codeman.BRS.Shared.Service;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BikeRentingSystem.Core
+namespace Codeman.BRS.Core
 {
     public class CustomerService : ICustomerService
     {

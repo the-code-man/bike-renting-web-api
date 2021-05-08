@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Codeman.BikeRentingSystem.Auth
+namespace Codeman.BRS.Auth
 {
     public class AuthServiceModule : Module
     {

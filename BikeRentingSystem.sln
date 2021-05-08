@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Core", "src\Core\Codeman.BikeRentingSystem.Core.csproj", "{BFBB2F08-4A20-4371-ADBF-02AC6FF4C281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Core", "src\Core\Codeman.BRS.Core.csproj", "{BFBB2F08-4A20-4371-ADBF-02AC6FF4C281}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.DataAccess", "src\DataAccess\Codeman.BikeRentingSystem.DataAccess.csproj", "{CF25BCF7-D41C-471F-A3BB-B4EEE0F3D4D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Data.SqlServer", "src\DataAccess\Codeman.BRS.Data.SqlServer.csproj", "{CF25BCF7-D41C-471F-A3BB-B4EEE0F3D4D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Shared", "src\Shared\Codeman.BikeRentingSystem.Shared.csproj", "{5BBE25B3-C90F-4F90-9A4A-8FDCAB83BDB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Shared", "src\Shared\Codeman.BRS.Shared.csproj", "{5BBE25B3-C90F-4F90-9A4A-8FDCAB83BDB4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FFD12303-5677-4A46-AC3B-F1B6E1D69152}"
 EndProject
@@ -21,21 +21,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diagrams", "diagrams", "{43
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91BB25EE-D34E-4F64-B7F9-D0C009998C9D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Api.Tests", "tests\Codeman.BikeRentingSystem.Api.Tests\Codeman.BikeRentingSystem.Api.Tests.csproj", "{E6D237E8-9E9F-4848-9382-7E91510EB9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Api.Tests", "tests\Codeman.BikeRentingSystem.Api.Tests\Codeman.BRS.Api.Tests.csproj", "{E6D237E8-9E9F-4848-9382-7E91510EB9F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Core.Tests", "tests\Codeman.BikeRentingSystem.Core.Tests\Codeman.BikeRentingSystem.Core.Tests.csproj", "{722B2A31-BD44-4033-B25C-E5BC5F92CA36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Core.Tests", "tests\Codeman.BikeRentingSystem.Core.Tests\Codeman.BRS.Core.Tests.csproj", "{722B2A31-BD44-4033-B25C-E5BC5F92CA36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.DataAccess.Tests", "tests\Codeman.BikeRentingSystem.DataAccess.Tests\Codeman.BikeRentingSystem.DataAccess.Tests.csproj", "{AEF7D9B3-2D70-434F-BBAE-64D980AF21AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Data.SqlServer.Tests", "tests\Codeman.BikeRentingSystem.DataAccess.Tests\Codeman.BRS.Data.SqlServer.Tests.csproj", "{AEF7D9B3-2D70-434F-BBAE-64D980AF21AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.TripSimulator", "simulators\Codeman.BikeRentingSystem.TripSimulator\Codeman.BikeRentingSystem.TripSimulator.csproj", "{A6A956FD-030F-4E00-8EAE-C6998F638A04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.TripSimulator", "simulators\Codeman.BikeRentingSystem.TripSimulator\Codeman.BRS.TripSimulator.csproj", "{A6A956FD-030F-4E00-8EAE-C6998F638A04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Auth", "src\Auth\Codeman.BikeRentingSystem.Auth.csproj", "{D7470ABC-7A2E-425B-964D-4B8EFBC8D309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Auth", "src\Auth\Codeman.BRS.Auth.csproj", "{D7470ABC-7A2E-425B-964D-4B8EFBC8D309}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Api", "src\Api\Codeman.BikeRentingSystem.Api.csproj", "{89682366-1DFF-4903-A91A-97C69EE42BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Api", "src\Api\Codeman.BRS.Api.csproj", "{89682366-1DFF-4903-A91A-97C69EE42BE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BikeRentingSystem.Logger", "src\Logger\Codeman.BikeRentingSystem.Logger.csproj", "{13CFD7EA-BCDB-4772-AC67-39B0435ED7F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Logger", "src\Logger\Codeman.BRS.Logger.csproj", "{13CFD7EA-BCDB-4772-AC67-39B0435ED7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeman.BikeRentingSystem.Auth.Tests", "tests\Codeman.BikeRentingSystem.Auth.Tests\Codeman.BikeRentingSystem.Auth.Tests.csproj", "{0EA452DE-A32E-4924-961A-7E48DBDA7025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeman.BRS.Auth.Tests", "tests\Codeman.BikeRentingSystem.Auth.Tests\Codeman.BRS.Auth.Tests.csproj", "{0EA452DE-A32E-4924-961A-7E48DBDA7025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "datasrc", "datasrc", "{5BBC1553-869C-40D9-AA1A-BCD88F9FBCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeman.BRS.Data.EF.SqlServer", "datasrc\Codeman.BRS.Data.EF.SqlServer\Codeman.BRS.Data.EF.SqlServer.csproj", "{5DAE1C04-1B0B-4979-80D1-148E2145474B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,13 +91,17 @@ Global
 		{0EA452DE-A32E-4924-961A-7E48DBDA7025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA452DE-A32E-4924-961A-7E48DBDA7025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA452DE-A32E-4924-961A-7E48DBDA7025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAE1C04-1B0B-4979-80D1-148E2145474B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAE1C04-1B0B-4979-80D1-148E2145474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAE1C04-1B0B-4979-80D1-148E2145474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAE1C04-1B0B-4979-80D1-148E2145474B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BFBB2F08-4A20-4371-ADBF-02AC6FF4C281} = {91BB25EE-D34E-4F64-B7F9-D0C009998C9D}
-		{CF25BCF7-D41C-471F-A3BB-B4EEE0F3D4D0} = {91BB25EE-D34E-4F64-B7F9-D0C009998C9D}
+		{CF25BCF7-D41C-471F-A3BB-B4EEE0F3D4D0} = {5BBC1553-869C-40D9-AA1A-BCD88F9FBCF4}
 		{5BBE25B3-C90F-4F90-9A4A-8FDCAB83BDB4} = {91BB25EE-D34E-4F64-B7F9-D0C009998C9D}
 		{E6D237E8-9E9F-4848-9382-7E91510EB9F7} = {FFD12303-5677-4A46-AC3B-F1B6E1D69152}
 		{722B2A31-BD44-4033-B25C-E5BC5F92CA36} = {FFD12303-5677-4A46-AC3B-F1B6E1D69152}
@@ -103,6 +111,7 @@ Global
 		{89682366-1DFF-4903-A91A-97C69EE42BE7} = {91BB25EE-D34E-4F64-B7F9-D0C009998C9D}
 		{13CFD7EA-BCDB-4772-AC67-39B0435ED7F4} = {91BB25EE-D34E-4F64-B7F9-D0C009998C9D}
 		{0EA452DE-A32E-4924-961A-7E48DBDA7025} = {FFD12303-5677-4A46-AC3B-F1B6E1D69152}
+		{5DAE1C04-1B0B-4979-80D1-148E2145474B} = {5BBC1553-869C-40D9-AA1A-BCD88F9FBCF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {288A9FF4-9B72-4735-9549-70AE993E7AED}

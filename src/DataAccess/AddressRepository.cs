@@ -1,13 +1,13 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
-using Codeman.BikeRentingSystem.Shared.Entity;
-using Codeman.BikeRentingSystem.Shared.Repository;
+﻿using Codeman.BRS.Shared.Common;
+using Codeman.BRS.Shared.Entity;
+using Codeman.BRS.Shared.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 
-namespace Codeman.BikeRentingSystem.DataAccess
+namespace Codeman.BRS.Data.SqlServer
 {
     public class AddressRepository : IAddressRepository
     {

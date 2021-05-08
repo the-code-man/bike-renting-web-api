@@ -1,7 +1,7 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
+﻿using Codeman.BRS.Shared.Common;
 using System;
 
-namespace Codeman.BikeRentingSystem.Logger
+namespace Codeman.BRS.Logger
 {
     public class ConsoleLoger : ILogger
     {

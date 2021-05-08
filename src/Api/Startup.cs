@@ -1,9 +1,9 @@
 using Autofac;
-using Codeman.BikeRentingSystem.Auth;
-using Codeman.BikeRentingSystem.Core;
-using Codeman.BikeRentingSystem.DataAccess;
-using Codeman.BikeRentingSystem.Logger;
-using Codeman.BikeRentingSystem.Shared.Common;
+using Codeman.BRS.Auth;
+using Codeman.BRS.Core;
+using Codeman.BRS.Data.SqlServer;
+using Codeman.BRS.Logger;
+using Codeman.BRS.Shared.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace Codeman.BikeRentingSystem.Api
+namespace Codeman.BRS.Api
 {
     public class Startup
     {
@@ -31,7 +31,7 @@ namespace Codeman.BikeRentingSystem.Api
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Codeman.BikeRentingSystem.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Codeman.BRS.Api", Version = "v1" });
             });
         }
 
@@ -50,7 +50,7 @@ namespace Codeman.BikeRentingSystem.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Codeman.BikeRentingSystem.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Codeman.BRS.Api v1"));
             }
 
             app.UseRouting();

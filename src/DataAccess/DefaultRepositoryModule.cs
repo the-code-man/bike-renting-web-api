@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Codeman.BikeRentingSystem.Shared.Common;
-using Codeman.BikeRentingSystem.Shared.Repository;
+using Codeman.BRS.Shared.Common;
+using Codeman.BRS.Shared.Repository;
 
-namespace Codeman.BikeRentingSystem.DataAccess
+namespace Codeman.BRS.Data.SqlServer
 {
     public class DefaultRepositoryModule : Module
     {

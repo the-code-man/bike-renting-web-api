@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\DataAccess\Codeman.BikeRentingSystem.DataAccess.csproj" />
+    <ProjectReference Include="..\..\src\Core\Codeman.BRS.Core.csproj" />
   </ItemGroup>
 
 </Project>
