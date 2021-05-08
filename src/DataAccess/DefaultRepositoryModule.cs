@@ -8,7 +8,7 @@ namespace Codeman.BikeRentingSystem.DataAccess
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ConnectionHelper>().As<IDBConnectionHelper>().InstancePerLifetimeScope();
+            builder.RegisterType<ConnectionHelper>().As<IDBConnectionHelper>().SingleInstance();
 
             builder.RegisterType<AddressRepository>().As<IAddressRepository>().InstancePerLifetimeScope();
             builder.RegisterType<BikeRepository>().As<IBikeRepository>().InstancePerLifetimeScope();

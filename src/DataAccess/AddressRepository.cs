@@ -1,7 +1,6 @@
 ﻿using Codeman.BikeRentingSystem.Shared.Common;
 using Codeman.BikeRentingSystem.Shared.Entity;
 using Codeman.BikeRentingSystem.Shared.Repository;
-using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Data;

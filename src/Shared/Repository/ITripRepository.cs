@@ -1,5 +1,4 @@
-﻿using Codeman.BikeRentingSystem.Shared.Common;
-using Codeman.BikeRentingSystem.Shared.Entity;
+﻿using Codeman.BikeRentingSystem.Shared.Entity;
 
 namespace Codeman.BikeRentingSystem.Shared.Repository
 {
