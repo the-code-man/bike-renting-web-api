@@ -2,7 +2,7 @@
 using Codeman.BRS.Shared.Common;
 using Codeman.BRS.Shared.Repository;
 
-namespace Codeman.BRS.Data.EF.SqlServer
+namespace Codeman.BRS.Data.SqlServer.EF
 {
     public class EFSqlServerRepositoryModule : Module
     {

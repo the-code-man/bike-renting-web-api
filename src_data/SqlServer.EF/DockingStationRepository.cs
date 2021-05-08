@@ -4,31 +4,31 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BRS.Data.EF.SqlServer
+namespace Codeman.BRS.Data.SqlServer.EF
 {
-    public class BikeRepository : IBikeRepository
+    public class DockingStationRepository : IDockingStationRepository
     {
-        public Task<bool> Add(Bike entity)
+        public Task<bool> Add(DockingStation entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Delete(Bike entity)
+        public Task<bool> Delete(DockingStation entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Bike>> Get()
+        public Task<IEnumerable<DockingStation>> Get()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Bike> GetById(int entityId)
+        public Task<DockingStation> GetById(int entityId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Update(Bike entity)
+        public Task<bool> Update(DockingStation entity)
         {
             throw new NotImplementedException();
         }

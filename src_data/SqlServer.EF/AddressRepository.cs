@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BRS.Data.EF.SqlServer
+namespace Codeman.BRS.Data.SqlServer.EF
 {
     public class AddressRepository : IAddressRepository
     {

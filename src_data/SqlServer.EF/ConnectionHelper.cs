@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Options;
 using System;
 
-namespace Codeman.BRS.Data.EF.SqlServer
+namespace Codeman.BRS.Data.SqlServer.EF
 {
     public class ConnectionHelper : IDBConnectionHelper
     {
