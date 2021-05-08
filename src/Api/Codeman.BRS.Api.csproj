@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src_data\SqlServer\Codeman.BRS.Data.SqlServer.csproj" />
     <ProjectReference Include="..\Auth\Codeman.BRS.Auth.csproj" />
     <ProjectReference Include="..\Core\Codeman.BRS.Core.csproj" />
-    <ProjectReference Include="..\DataAccess\Codeman.BRS.Data.SqlServer.csproj" />
     <ProjectReference Include="..\Logger\Codeman.BRS.Logger.csproj" />
     <ProjectReference Include="..\Shared\Codeman.BRS.Shared.csproj" />
   </ItemGroup>

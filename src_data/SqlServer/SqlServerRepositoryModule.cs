@@ -4,7 +4,7 @@ using Codeman.BRS.Shared.Repository;
 
 namespace Codeman.BRS.Data.SqlServer
 {
-    public class DefaultRepositoryModule : Module
+    public class SqlServerRepositoryModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

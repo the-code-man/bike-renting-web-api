@@ -38,7 +38,7 @@ namespace Codeman.BRS.Api
         public void ConfigureContainer(ContainerBuilder builder)
         {
             builder.RegisterModule(new LoggerModule());
-            builder.RegisterModule(new DefaultRepositoryModule());
+            builder.RegisterModule(new SqlServerRepositoryModule());
             builder.RegisterModule(new AuthServiceModule());
             builder.RegisterModule(new ServiceModule());
         }
