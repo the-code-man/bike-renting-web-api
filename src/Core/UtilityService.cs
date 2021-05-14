@@ -7,19 +7,16 @@ using System.Threading.Tasks;
 
 namespace Codeman.BRS.Core
 {
-    public class CustomerService : ICustomerService
+    public class UtilityService : IUtilityService
     {
-        private readonly ICustomerRepository _customerRepository;
         private readonly IAddressRepository _addressRepository;
         private readonly ILogger _logger;
 
         private IList<State> _allStates;
 
-        public CustomerService(ICustomerRepository customerRepository, 
-            IAddressRepository addressRepository, 
+        public UtilityService(IAddressRepository addressRepository, 
             ILogger logger)
         {
-            _customerRepository = customerRepository;
             _addressRepository = addressRepository;
             _logger = logger;
         }

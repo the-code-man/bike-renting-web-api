@@ -10,14 +10,14 @@ namespace Codeman.BRS.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CustomerController : ControllerBase
+    public class UtilityController : ControllerBase
     {
-        private readonly ICustomerService _customerService;
+        private readonly IUtilityService _utilityService;
         private readonly ILogger _logger;
 
-        public CustomerController(ICustomerService customerService, ILogger logger)
+        public UtilityController(IUtilityService utilityService, ILogger logger)
         {
-            _customerService = customerService;
+            _utilityService = utilityService;
             _logger = logger;
         }
 
@@ -26,7 +26,7 @@ namespace Codeman.BRS.Api.Controllers
         {
             try
             {
-                var states = await _customerService.GetAllStatesAsync();
+                var states = await _utilityService.GetAllStatesAsync();
                 return Ok(states);
             }
             catch (Exception ex)
@@ -41,7 +41,7 @@ namespace Codeman.BRS.Api.Controllers
         {
             try
             {
-                var cities = await _customerService.GetAllCitiesAsync(id);
+                var cities = await _utilityService.GetAllCitiesAsync(id);
                 return Ok(cities);
             }
             catch (Exception ex)

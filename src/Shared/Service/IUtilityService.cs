@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Codeman.BRS.Shared.Service
 {
-    public interface ICustomerService
+    public interface IUtilityService
     {
         Task<IList<State>> GetAllStatesAsync();
 

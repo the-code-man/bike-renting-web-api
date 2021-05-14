@@ -7,7 +7,7 @@ namespace Codeman.BRS.Core
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<CustomerService>().As<ICustomerService>().SingleInstance();
+            builder.RegisterType<UtilityService>().As<IUtilityService>().SingleInstance();
         }
     }
 }
