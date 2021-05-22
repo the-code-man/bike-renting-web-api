@@ -8,6 +8,6 @@ namespace Codeman.BRS.Shared.Service
     {
         Task<IList<State>> GetAllStatesAsync();
 
-        Task<IList<City>> GetAllCitiesAsync(int stateId);
+        Task<IList<City>> GetAllCitiesAsync(string id);
     }
 }

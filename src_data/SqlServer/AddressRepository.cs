@@ -40,16 +40,15 @@ namespace Codeman.BRS.Data.SqlServer
             throw new NotImplementedException();
         }
 
-        public async Task<IList<City>> GetCities(int stateId)
+        public async Task<IList<City>> GetCitiesByStateCode(string stateCode)
         {
-            List<City> cities = null;
-
             using var connection = new SqlConnection(_dbConnHelper.ConnectionString);
 
             SqlCommand command = new("dbo.uspGetCities", connection);
             command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@StateId", stateId);
+            command.Parameters.AddWithValue("@StateCode", stateCode);
 
+            List<City> cities = null;
             SqlDataReader reader = null;
 
             try
@@ -63,12 +62,11 @@ namespace Codeman.BRS.Data.SqlServer
 
                     cities.Add(new City
                     {
-                        Id = reader.GetInt32("id"),
-                        Name = reader.GetString("city_name"),
+                        Name = reader.GetString("city_name").Trim(),
                         State = new State
                         {
-                            Id = stateId,
-                            Name = reader.GetString("state_name")
+                            Name = reader.GetString("state_name").Trim(),
+                            StateCode = reader.GetString("state_code").Trim()
                         }
                     });
                 }
@@ -109,8 +107,8 @@ namespace Codeman.BRS.Data.SqlServer
 
                     states.Add(new State
                     {
-                        Id = reader.GetInt32("id"),
-                        Name = reader.GetString("state_name")
+                        Name = reader.GetString("state_name").Trim(),
+                        StateCode = reader.GetString("state_code").Trim()
                     });
                 }
 

@@ -8,6 +8,6 @@ namespace Codeman.BRS.Shared.Repository
     {
         Task<IList<State>> GetStates();
 
-        Task<IList<City>> GetCities(int stateId);
+        Task<IList<City>> GetCitiesByStateCode(string stateCode);
     }
 }

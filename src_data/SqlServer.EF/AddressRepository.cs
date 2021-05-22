@@ -28,7 +28,12 @@ namespace Codeman.BRS.Data.SqlServer.EF
             throw new NotImplementedException();
         }
 
-        public Task<IList<City>> GetCities(int stateId)
+        public Task<IList<City>> GetCitiesByStateCode(string stateCode)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IList<City>> GetCitiesByStateId(int stateId)
         {
             throw new NotImplementedException();
         }

@@ -14,16 +14,16 @@ namespace Codeman.BRS.Core
 
         private IList<State> _allStates;
 
-        public UtilityService(IAddressRepository addressRepository, 
+        public UtilityService(IAddressRepository addressRepository,
             ILogger logger)
         {
             _addressRepository = addressRepository;
             _logger = logger;
         }
 
-        public async Task<IList<City>> GetAllCitiesAsync(int stateId)
+        public async Task<IList<City>> GetAllCitiesAsync(string stateCode)
         {
-            return await _addressRepository.GetCities(stateId);
+            return await _addressRepository.GetCitiesByStateCode(stateCode);
         }
 
         public async Task<IList<State>> GetAllStatesAsync()
