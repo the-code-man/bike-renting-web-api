@@ -1,5 +1,5 @@
 ﻿using Codeman.BRS.Shared.Common;
-using Codeman.BRS.Shared.Entity;
+using Codeman.BRS.Shared.Model;
 using Codeman.BRS.Shared.Repository;
 using Codeman.BRS.Shared.Service;
 using System.Collections.Generic;

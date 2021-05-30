@@ -1,4 +1,4 @@
-﻿using Codeman.BRS.Shared.Entity;
+﻿using Codeman.BRS.Shared.Model;
 using Codeman.BRS.Shared.Repository;
 using System;
 using System.Collections.Generic;

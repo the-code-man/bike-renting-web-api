@@ -1,8 +1,8 @@
-﻿using Codeman.BRS.Shared.Entity;
+﻿using Codeman.BRS.Shared.Model.Customer;
 
 namespace Codeman.BRS.Shared.Repository
 {
-    public interface ICustomerRepository : IRepository<Customer>
+    public interface ICustomerRepository : IRepository<CustomerDetails>
     {
     }
 }

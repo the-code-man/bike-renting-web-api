@@ -1,4 +1,5 @@
-﻿using Codeman.BRS.Shared.Entity;
+﻿using Codeman.BRS.Shared.Model;
+using Codeman.BRS.Shared.Model.Asset;
 
 namespace Codeman.BRS.Shared.Repository
 {

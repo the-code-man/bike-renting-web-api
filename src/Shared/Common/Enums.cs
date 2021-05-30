@@ -1,9 +1,16 @@
 ﻿namespace Codeman.BRS.Shared.Common
 {
-    public enum CustomerStatus
+    public enum AccountStatus
     {
         Active,
-        Inactive
+        Suspended
+    }
+
+    public enum VerificationStatus
+    {
+        Verified,
+        VerficationPending,
+        Rejected
     }
 
     public enum PaymentType
@@ -29,7 +36,7 @@
         Unknown
     }
 
-    public enum RepairmentStatus
+    public enum RepairStatus
     {
         NotStarted,
         InProgress,
@@ -43,6 +50,14 @@
         NeedsRepair,
         Stolen,
         Decommisioned
+    }
+
+    public enum DockingStationStatus
+    { 
+        Operational,
+        ComingSoon,
+        UnderMaintanence,
+        Decommissioned
     }
 
     public enum EntityState
