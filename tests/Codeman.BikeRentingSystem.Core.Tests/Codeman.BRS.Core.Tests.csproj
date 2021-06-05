@@ -19,8 +19,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\Core\Codeman.BRS.Core.csproj" />
-  </ItemGroup>
-
 </Project>

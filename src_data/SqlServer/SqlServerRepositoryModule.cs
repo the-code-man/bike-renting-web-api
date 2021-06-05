@@ -10,12 +10,12 @@ namespace Codeman.BRS.Data.SqlServer
         {
             builder.RegisterType<ConnectionHelper>().As<IDBConnectionHelper>().SingleInstance();
 
-            builder.RegisterType<AddressRepository>().As<IAddressRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<BikeRepository>().As<IBikeRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<DockingStationRepository>().As<IDockingStationRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<RepairmentRepository>().As<IRepairmentRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<TripRepository>().As<ITripRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<AddressRepository>().As<IAddressRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<BikeRepository>().As<IBikeRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<DockingStationRepository>().As<IDockingStationRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<RepairmentRepository>().As<IRepairmentRepository>().InstancePerLifetimeScope();
+            //builder.RegisterType<TripRepository>().As<ITripRepository>().InstancePerLifetimeScope();
         }
     }
 }

@@ -10,7 +10,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Shared\Codeman.BRS.Shared.csproj" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src_core\Shared\Codeman.BRS.Shared.csproj" />
   </ItemGroup>
 
 </Project>
