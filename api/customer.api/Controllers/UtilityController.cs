@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BRS.Api.Controllers
+namespace Codeman.BRS.Customer.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace Codeman.BRS.Api
+namespace Codeman.BRS.Customer.Api
 {
     public class Startup
     {
@@ -31,7 +31,7 @@ namespace Codeman.BRS.Api
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Codeman.BRS.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Codeman.BRS.Customer.Api", Version = "v1" });
             });
         }
 
@@ -50,7 +50,7 @@ namespace Codeman.BRS.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Codeman.BRS.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Codeman.BRS.Customer.Api v1"));
             }
 
             app.UseRouting();

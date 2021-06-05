@@ -2,7 +2,7 @@ using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Codeman.BRS.Api
+namespace Codeman.BRS.Customer.Api
 {
     public class Program
     {

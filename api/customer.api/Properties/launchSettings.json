@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Codeman.BRS.Api": {
+    "Codeman.BRS.Customer.Api": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": false,
