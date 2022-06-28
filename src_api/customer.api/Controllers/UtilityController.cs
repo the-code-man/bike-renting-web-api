@@ -1,5 +1,5 @@
 ﻿using Codeman.BRS.Shared.Common;
-using Codeman.BRS.Shared.Model;
+using Codeman.BRS.Shared.Model.Shared;
 using Codeman.BRS.Shared.Service;
 using Microsoft.AspNetCore.Mvc;
 using System;
