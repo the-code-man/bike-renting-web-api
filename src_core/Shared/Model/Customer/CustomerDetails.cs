@@ -1,4 +1,4 @@
-﻿using Codeman.BRS.Shared.Model.Shared;
+﻿using Codeman.BRS.Shared.Model.Core;
 using System;
 
 namespace Codeman.BRS.Shared.Model.Customer

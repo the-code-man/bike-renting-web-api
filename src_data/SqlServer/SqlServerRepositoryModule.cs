@@ -1,6 +1,7 @@
 ﻿using Autofac;
+using Codeman.BRS.Data.SqlServer.Repository.Core;
 using Codeman.BRS.Shared.Common;
-using Codeman.BRS.Shared.Repository;
+using Codeman.BRS.Shared.Repository.Core;
 
 namespace Codeman.BRS.Data.SqlServer
 {
@@ -8,14 +9,11 @@ namespace Codeman.BRS.Data.SqlServer
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ConnectionHelper>().As<IDBConnectionHelper>().SingleInstance();
+            builder.RegisterType<ConnectionHelper>().AsSelf().SingleInstance();
+            builder.RegisterType<StateRepository>().As<IStateRepository>().SingleInstance();
 
-            //builder.RegisterType<AddressRepository>().As<IAddressRepository>().InstancePerLifetimeScope();
-            //builder.RegisterType<BikeRepository>().As<IBikeRepository>().InstancePerLifetimeScope();
-            //builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().InstancePerLifetimeScope();
-            //builder.RegisterType<DockingStationRepository>().As<IDockingStationRepository>().InstancePerLifetimeScope();
-            //builder.RegisterType<RepairmentRepository>().As<IRepairmentRepository>().InstancePerLifetimeScope();
-            //builder.RegisterType<TripRepository>().As<ITripRepository>().InstancePerLifetimeScope();
+            // https://autofac.readthedocs.io/en/latest/faq/per-request-scope.html
+            builder.RegisterType<DataSourceManager>().AsSelf().InstancePerLifetimeScope();
         }
     }
 }

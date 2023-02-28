@@ -4,7 +4,7 @@ using System;
 
 namespace Codeman.BRS.Data.SqlServer
 {
-    public class ConnectionHelper : IDBConnectionHelper
+    public class ConnectionHelper
     {
         public ConnectionHelper(IOptions<DataSourceOptions> dsOptions)
         {
@@ -12,7 +12,7 @@ namespace Codeman.BRS.Data.SqlServer
 
             if (string.IsNullOrWhiteSpace(ConnectionString))
             {
-                throw new ArgumentNullException("Database connection string has not been provided.");
+                throw new ArgumentNullException(nameof(ConnectionString), "Database connection string has not been provided.");
             }
         }
 

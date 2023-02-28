@@ -65,7 +65,8 @@
         New,
         Updated,
         Deleted,
-        Unchanged
+        Unchanged,
+        Locked
     }
 
     public enum LogLevel

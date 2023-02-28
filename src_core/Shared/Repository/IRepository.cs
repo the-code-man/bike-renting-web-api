@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Codeman.BRS.Shared.Repository
+namespace Codeman.BRS.Repository
 {
     public interface IRepository<T> where T : ModelBase
     {
@@ -11,9 +11,5 @@ namespace Codeman.BRS.Shared.Repository
         Task<bool> Update(T entity);
 
         Task<bool> Delete(T entity);
-
-        Task<IEnumerable<T>> Get();
-
-        Task<T> GetById(int entityId);
     }
 }

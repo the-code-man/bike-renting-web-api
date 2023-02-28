@@ -1,5 +1,5 @@
 ﻿using Codeman.BRS.Shared.Common;
-using Codeman.BRS.Shared.Model.Shared;
+using Codeman.BRS.Shared.Model.Core;
 
 namespace Codeman.BRS.Shared.Model.Asset
 {

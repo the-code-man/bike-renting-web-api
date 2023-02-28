@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Codeman.BRS.Core.Service;
 using Codeman.BRS.Shared.Service;
 
 namespace Codeman.BRS.Core
@@ -7,7 +8,7 @@ namespace Codeman.BRS.Core
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.RegisterType<UtilityService>().As<IUtilityService>().SingleInstance();
+            builder.RegisterType<UtilityService>().As<IUtilityService>().SingleInstance();
         }
     }
 }

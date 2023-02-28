@@ -1,4 +1,4 @@
-﻿namespace Codeman.BRS.Shared.Model.Shared
+﻿namespace Codeman.BRS.Shared.Model.Core
 {
     public class Area : ModelBase
     {

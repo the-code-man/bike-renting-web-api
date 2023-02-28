@@ -8,7 +8,7 @@ namespace Codeman.BRS.Data.SqlServer.EF
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ConnectionHelper>().As<IDBConnectionHelper>().SingleInstance();
+            builder.RegisterType<ConnectionHelper>().AsSelf().SingleInstance();
 
             //builder.RegisterType<AddressRepository>().As<IAddressRepository>().InstancePerLifetimeScope();
             //builder.RegisterType<BikeRepository>().As<IBikeRepository>().InstancePerLifetimeScope();

@@ -7,9 +7,7 @@ namespace Codeman.BRS.Logger
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ConsoleLoger>().As<ILogger>();
-
-            base.Load(builder);
+            builder.RegisterType<ConsoleLoger>().As<ILogger>().SingleInstance();
         }
     }
 }
